@@ -93,14 +93,12 @@ public class movieTheatreImplementation {
     public static void viewSeats() {
         System.out.println("\nSeating Chart (5x5):\n");
 
-        // Print column headers
         System.out.print("      ");
         for (int col = 1; col <= 5; col++) {
             System.out.printf("%-3d", col);
         }
         System.out.println();
 
-        // Print rows with seat availability
         for (int row = 0; row < 5; row++) {
             System.out.printf("Row %-2d", (row + 1));
             for (int col = 0; col < 5; col++) {
