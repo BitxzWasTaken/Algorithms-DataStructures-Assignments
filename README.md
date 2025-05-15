@@ -2,5 +2,5 @@
 This is where you'll find all of Jonathan Strickland's assignments for Algorithms & Datastructure
 
 Assignments Completed:
-  - averageTemperatureCalculator
-  - movieTheatreImplementation
+  - Average Temperature Calculator
+  - Movie Theatre Implementation
