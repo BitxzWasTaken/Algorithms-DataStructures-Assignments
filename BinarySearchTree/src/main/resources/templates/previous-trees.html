@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Previous Trees</title>
+</head>
+<body>
+    <h1>Previous Tree Submissions</h1>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Input Numbers</th>
+                <th>Tree JSON</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="record : ${records}">
+                <td th:text="${record.id}"></td>
+                <td th:text="${record.inputNumbers}"></td>
+                <td><pre th:text="${record.treeJson}"></pre></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a href="/enter-numbers">Back to Input</a>
+</body>
+</html>
