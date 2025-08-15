@@ -1,4 +1,4 @@
-package main.java.com.keyin.binarytree.service;
+package com.keyin.binarytree.service;
 
 import org.springframework.stereotype.Service;
 import java.util.Map;
@@ -42,4 +42,5 @@ public class TreeService {
         map.put("right", toMap(node.right));
         return map;
     }
+
 }
